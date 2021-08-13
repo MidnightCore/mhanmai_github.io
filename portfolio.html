@@ -35,9 +35,56 @@
 <body>
 	<!-- main container of the page -->
 	<div id="wrapper">
-			<!-- NAV BAR -->
-	<?php include("include/navbar.html") ?>
-	<!-- NAV BAR END -->
+		<!-- header of the page -->
+		<header id="header">
+			<div class="container-fluid">
+				<!-- logo of the page -->
+				<div class="col-xs-12 col-sm-12">
+					<div class="logo">
+						<a href="index.html"><img src="images/construction-logo.png" alt="Dekko-construction" class="img-responsive"></a>
+					</div>
+					<!-- nav holder of the page -->
+					<div class="nav-holder">
+						<a href="#" class="nav-opener text-center md-round"><i class="fa fa-bars"></i></a>
+						<nav id="nav" class="hb-navigation">
+							<!-- nav of the page -->
+							<ul class="list-unstyled text-uppercase">
+								<li class="active"><a href="index.html">home</a></li>
+								<li><a href="about-us.html">About</a></li>
+								<li><a href="service.html">Services</a></li>
+								<li class="menu-item-has-children">
+									<a href="javascript:void(0);">Pages <i class="fas fa-angle-down pull-right hidden visible-xs visible-sm"></i></a>
+									<ul class="list-unstyled sub-menu">
+										<li><a href="portfolio.html">Portfolio</a></li>
+										<li><a href="portfolio-detail.html">Portfolio Detail</a></li>
+									</ul>
+								</li>
+								<li class="menu-item-has-children">
+									<a href="javascript:void(0);">Blog <i class="fas fa-angle-down pull-right hidden visible-xs visible-sm"></i></a>
+									<ul class="list-unstyled sub-menu">
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-detail.html">Blog Detail</a></li>
+									</ul>
+								</li>
+								<li><a href="contact-us.html">Contact us</a></li>
+							</ul>
+						</nav>
+						<!-- search holder of the page -->
+						<div class="search-holder">
+							<div class="search-area">
+							<!-- search bar of the page -->
+								<div class="search-box">
+									<form>
+										<button type="button" class="form-opener btn-secondary fas fa-search"></button>
+										<input type="search" placeholder="Search">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 		<main id="main">
 			<!-- banner sec of the page -->
 			<section class="banner-sec">
